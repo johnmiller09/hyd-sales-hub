@@ -34,7 +34,7 @@ const listings: Listing[] = [
     id: "3",
     title: "Honda Activa 5G - 2018",
     description: "Genuine 40,000 KM Driven • 75% Tyres Condition • Excellent Performance",
-    videoUrl: "/videos/scooter-activa.mp4",
+    videoUrl: `${import.meta.env.BASE_URL}videos/scooter-activa.mp4`,
     phone: "8499089621",
     category: "scooters"
   },
