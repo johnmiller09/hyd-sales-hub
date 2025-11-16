@@ -18,7 +18,7 @@ const listings: Listing[] = [
     id: "1",
     title: "Hyundai Verna 1.6 CRDi SX - 2012",
     description: "Papers Valid till 03-2027 • Insurance Valid till 02-2026 • Well maintained",
-    imageUrl: carImage,
+    videoUrl: `${import.meta.env.BASE_URL}videos/verna.mp4`,
     phone: "7820955742",
     category: "cars"
   },
@@ -26,7 +26,7 @@ const listings: Listing[] = [
     id: "2",
     title: "Bajaj Pulsar NS160 - 2017",
     description: "Validity till 2032 • Very Neat • Well Maintained • Great Condition",
-    imageUrl: bikeImage,
+    videoUrl: `${import.meta.env.BASE_URL}videos/bike.mp4`,
     phone: "8639061181",
     category: "bikes"
   },
@@ -42,7 +42,7 @@ const listings: Listing[] = [
     id: "4",
     title: "Samsung Galaxy Z Fold 3 5G",
     description: "12GB RAM • 256GB Storage • Super Offer Price • Premium Condition",
-    imageUrl: phoneImage,
+    videoUrl: `${import.meta.env.BASE_URL}videos/samsung.mp4`,   
     phone: "9908663481",
     category: "electronics"
   }
